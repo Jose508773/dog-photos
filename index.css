@@ -1,0 +1,29 @@
+.container {
+    background-color: lab(0% 0 0);
+    color: rgb(244, 246, 246);
+    text-align: center;
+
+}
+
+.dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(11, 0, 0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.dog img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-block-end: 16px;
+}
+
